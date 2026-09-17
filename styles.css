@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 0 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    font-size: 24px;
+    background-color: darkred;
+    padding: 8px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 80px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box {
+    background-color: lightskyblue;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    width: 180px;
+    height: 180px;
+}
